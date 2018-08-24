@@ -1,4 +1,12 @@
 <?php
+echo "    __
+     w  c(..)o   (
+      \__(-)    __)
+          /\   (
+         /(_)___)
+         w /|
+          | \
+          m  m ";
 echo "Recode by : Mr.Swan COPYRIGHT : SGB TEAM\n\n";
 echo "Nomor Korban?\nJumlah Sodokan : ";
 $nomer = trim(fgets(STDIN));
