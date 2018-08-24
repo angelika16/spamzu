@@ -1,6 +1,6 @@
 <?php
 echo "Recode by : Mr.Swan COPYRIGHT : SGB TEAM\n\n";
-echo "Nomor Korban?\nInput : ";
+echo "Nomor Korban?\nJumlah Sodokan : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
