@@ -11,14 +11,6 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "    __
-     w  c(..)o   (
-      \__(-)    __)
-          /\   (
-         /(_)___)
-         w /|
-          | \
-          m  m ";
 echo "Recode By Mr.Swan COPYRIGHT : SGBTEAM\n\n";
 echo "Nomor Korban\nInput : ";
 $nomor = trim(fgets(STDIN));
