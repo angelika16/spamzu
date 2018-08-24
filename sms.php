@@ -1,14 +1,6 @@
 <?php
-echo "    __
-     w  c(..)o   (
-      \__(-)    __)
-          /\   (
-         /(_)___)
-         w /|
-          | \
-          m  m ";
 echo "Recode by : Mr.Swan COPYRIGHT : SGB TEAM\n\n";
-echo "Nomor Korban?\nJumlah Sodokan : ";
+echo "Nomor Korban?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
