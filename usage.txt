@@ -1,0 +1,6 @@
+Usage:
+pkg install php
+pkg instal git -y
+git clone https://github.com/beethoveen/spamzu
+cd spamzu
+php sms.php /php call.php
