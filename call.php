@@ -14,6 +14,8 @@ function send($phone){
 echo "Recode By Mr.Swan COPYRIGHT : SGBTEAM\n\n";
 echo "Nomor Korban\nInput : ";
 $nomor = trim(fgets(STDIN));
+echo "jeda/delay: ";
+$jeda = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
 ?>
