@@ -11,11 +11,9 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "Recode By Mr.Swan COPYRIGHT : SGBTEAM\n\n";
+echo "Spam Call Mantan/Ripper By Mr.Swan \n\n";
 echo "Nomor Korban\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "jeda/delay: ";
-$jeda = trim(fgets(STDIN));
-$execute = send($nomor);
 print $execute;
 ?>
